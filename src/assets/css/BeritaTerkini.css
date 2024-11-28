@@ -1,0 +1,166 @@
+/* Default styling untuk desktop */
+.tess {
+  padding: 110px 20px 20px 20px; /* Padding untuk halaman desktop */
+}
+
+.header-ar-latest {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.header-ar-latest::before {
+  content: '';
+  width: 6px;
+  height: 24px;
+  background-color: rgb(204, 41, 41);
+  margin-right: 10px;
+}
+
+.latest-news-card {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.latest-news-text {
+  flex: 1;
+  color: #333;
+}
+
+.latest-news-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.article-body {
+  font-size: 15px;
+  color: #666;
+}
+
+.latest-news-meta {
+  font-size: 12px;
+  color: #666;
+  margin-top: 14px;
+}
+
+.latest-news-image {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.popular-article-list {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.top-tag-articles {
+  margin-left: 20px;
+  background-color: #fff;
+  padding: 10px 10px 10px 0px;
+  border-radius: 8px;
+}
+
+.top-tag-articles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-tag img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .tess {
+    padding: 70px 10px 10px 10px; 
+  }
+
+  .header-ar-latest {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .latest-news-card {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+
+  .latest-news-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .latest-news-text {
+    font-size: 14px;
+    color: black;
+    margin-bottom: 5px;
+  }
+
+  .latest-news-meta {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .latest-news-image {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .container {
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .popular-article-list,
+  .top-tag-articles {
+    width: 100%;
+    margin: 0;
+  }
+
+  .top-tag-articles {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+}

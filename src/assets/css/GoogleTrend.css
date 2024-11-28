@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+.list-googletrend {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.header-ar-trend {
+    display: flex;
+    margin-bottom: 5px; 
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    color: #333;
+}
+
+.header-ar-trend::before {
+    content: '';
+    margin-left: 10px !important;
+    width: 6px;
+    height: 24px;
+    background-color: rgb(204, 41, 41);
+    margin-right: 10px;
+}
+}
+
+.wrapper-rss-feed{
+    margin: 20px;
+}
+
+.header-ar-trend {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -25px; 
+    color: #333;
+    padding: 19px;
+}
+
+.header-ar-trend::before {
+    content: '';
+    margin-left: 90px;
+    width: 6px;
+    height: 24px;
+    background-color: rgb(204, 41, 41);
+    margin-right: 10px;
+}
+
+.list-googletrend {
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.card-googletrend {
+    width: 247px;
+    height: auto;
+    padding: 12px;
+    margin: 0 5px; 
+}
+
+.title-gtrend {
+    height: 93px;
+    text-align: left;
+}
+
+.title-gtrend a {
+    text-decoration: none;
+}

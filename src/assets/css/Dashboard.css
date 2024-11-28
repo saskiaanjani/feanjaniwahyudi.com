@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.article-table {
+  width: 100%; 
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.article-table th,
+.article-table td {
+  border: 1px solid #ddd;
+  padding: 10px; 
+  text-align: left;
+}
+
+.article-table a {
+  text-decoration: none;
+  color: black; 
+}
+
+.action-button {
+  color: white;
+  border: none;
+  padding: 10px 10px; 
+  margin: 3px; 
+  cursor: pointer;
+  border-radius: 5px; 
+  font-size: 12px; 
+}
+
+.action-button.edit {
+  background-color: #F7CF52; 
+}
+
+.action-button.delete {
+  background-color: red;
+}
+
+.action-button.headline {
+  background-color: #008CBA;
+}
+
+.action-button.edit:hover {
+  background-color: #cccc41; 
+}
+
+.action-button.delete:hover {
+  background-color: #ff4d4d; 
+}
+
+.action-button.headline:hover {
+  background-color: #138399; 
+}

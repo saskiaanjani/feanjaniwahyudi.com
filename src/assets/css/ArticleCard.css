@@ -1,0 +1,57 @@
+.category-articles {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+  
+.category-articles h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article-card {
+    display: flex; /* Align items in a row */
+    align-items: flex-start; /* Align items at the start vertically */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: calc(33.333% - 20px);
+}
+
+.article-image {
+    width: 100px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the space */
+    border-radius: 8px;
+    margin-right: 15px; /* Space between image and text */
+}
+
+.article-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0; /* Remove margin to better align with the image */
+    color: #333;
+}
+
+.article-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .article-list {
+        flex-direction: column;
+    }
+
+    .article-card {
+        width: 100%; 
+    }
+}

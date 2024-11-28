@@ -1,0 +1,154 @@
+.menu-wraper {
+  width: 250px;
+  padding: 20px;
+  background-color: #ffff;
+}
+.menu-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.menu-title span {
+  flex-grow: 1;
+}
+
+.menu-title svg {
+  font-size: 18px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-gap: 15px;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.menu li svg {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu li a:hover {
+  color: #333;
+}
+
+.menu li ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+  display: none;
+}
+
+.menu li:hover ul {
+  display: block;
+}
+
+.menu li ul li {
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.two-column-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 15px;
+}
+
+.two-column-menu li {
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.two-column-menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.two-column-menu li a:hover {
+  color: #333;
+}
+
+.menu li.logout {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .menu-wraper {
+    width: 250px;
+    padding: 20px;
+    margin: 44px 0px;
+  }
+
+  .menu-title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+
+  .menu-title svg {
+    font-size: 16px;
+  }
+
+  .menu {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 15px;
+  }
+  
+  .menu li {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu li svg {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .menu li a:hover {
+    color: #333;
+  }
+  
+  .menu li ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    display: none;
+  }
+
+ .two-column-menu li {
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+}

@@ -1,0 +1,18 @@
+/* src/assets/css/VideoPage.css */
+
+.video-page {
+    padding: 20px;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .video-card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
